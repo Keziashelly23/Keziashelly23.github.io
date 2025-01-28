@@ -1,5 +1,4 @@
 body {
-    font-family: 'Dancing Script', cursive;
     color: #010d4f;
     margin: 0;
     padding: 0;
@@ -162,7 +161,7 @@ h1 {
     font-size: 3rem;
     margin-bottom: 10px;
     color: #131313; 
-    font-family: 'Dancing Script', cursive;;
+
 }
 
 p {
@@ -201,6 +200,10 @@ footer a {
     font-size: 3rem;
     margin-bottom: 10px;
     color: #fefefe; 
+    font-family: 'Dancing Script', cursive;
+}
+.title2 {
+    font-family: 'Dancing Script', cursive;
 }
 .section-title {
     text-align: center;
