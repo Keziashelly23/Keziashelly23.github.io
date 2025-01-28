@@ -150,11 +150,11 @@ html, body {
     max-width: 60%;
 }
 
-.profile-image {
-    max-height: 150px;
-    max-width: 200px;
-    width: 120px;
-    height: 120px;
+img {
+    max-height: 1000px; /* Increase the maximum height */
+    max-width: 1000px; /* Increase the maximum width */
+    width: 400px; /* Set a larger width */
+    height: 400px; /* Set a larger height */
 }
 
 h1 {
@@ -226,8 +226,8 @@ footer a {
 }
 
 .skill-box {
-    background-color: #1f2937;
-    color: white;
+    background-color: #010f22;
+    color: rgb(245, 237, 237);
     padding: 20px;
     border-radius: 10px;
     width: 45%;
