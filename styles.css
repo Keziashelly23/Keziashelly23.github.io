@@ -1,16 +1,20 @@
 body {
-    color: #010d4f;
+    color: #2E1402; /* Dark blue text color for better readability */
     margin: 0;
     padding: 0;
     overflow-y: auto; /* Enables vertical scrolling */
 }
 
-header, footer {
-    background-color: #040133;
+header {
+    background-color: #2E1402;
     color: #ffffff;
-    padding: 50px 0;
-    text-align: center;
-    
+    padding: 20px 0;
+}
+header .container {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 header h1 {
     text-align: center;
@@ -24,10 +28,14 @@ header nav ul {
 header nav ul li {
     margin: 0 1rem;
 }
-header nav ul li a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.2rem;
+}
+nav {
+    margin-left: auto;
 }
 nav ul {
     list-style-type: none;
@@ -67,7 +75,7 @@ img {
 }
 
 button {
-    background-color: #030345;
+    background-color: #946D43;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -83,7 +91,17 @@ button.btn {
     padding: 0.5rem 2rem;
 }
 button:hover {
-    background-color: #16213e;
+    background-color: #f0ece8;
+}
+
+.btn-primary {
+    background-color: #D2B48C !important;
+    border-color: #D2B48C !important;
+}
+
+.btn-primary:hover {
+    background-color: #BC9A6A !important;
+    border-color: #BC9A6A !important;
 }
 
 .projects img, .contact-form label, .contact-form input, .contact-form textarea {
@@ -116,12 +134,12 @@ html, body {
 .social-links a {
     margin-right: 15px;
     font-size: 50px;
-    color: #090559;
+    color: #B7966B;
     transition: color 0.3s ease;
 }
 
 .social-links a:hover {
-    color: #02274e; /* Change to your desired hover color */
+    color: #B7966B; /* Change to your desired hover color */
 }
 
 .about-me {
@@ -152,7 +170,7 @@ html, body {
 
 img {
     max-height: 1000px; /* Increase the maximum height */
-    max-width: 1000px; /* Increase the maximum width */
+    max-width: 9999px; /* Increase the maximum width */
     width: 400px; /* Set a larger width */
     height: 400px; /* Set a larger height */
 }
@@ -161,7 +179,11 @@ h1 {
     font-size: 3rem;
     margin-bottom: 10px;
     color: #131313; 
+    text-align: left;
 
+}
+h1 .title {
+    text-align: left;
 }
 
 p {
@@ -174,7 +196,7 @@ body::-webkit-scrollbar {
     width: 8px;
 }
 body::-webkit-scrollbar-thumb {
-    background-color: #1606f4;
+    background-color: #2E1402;
     border-radius: 4px;
 }
 .social-links a:last-child {
@@ -193,17 +215,20 @@ footer {
     text-align: center;
 }
 footer a {
-    color: #020b51;
+    color: #946D43;
     text-decoration: none;
 }
 .title {
     font-size: 3rem;
     margin-bottom: 10px;
     color: #fefefe; 
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive; 
+    text-align: left;
+    margin-left: 0;
 }
 .title2 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
 }
 .section-title {
     text-align: center;
@@ -226,7 +251,7 @@ footer a {
 }
 
 .skill-box {
-    background-color: #010f22;
+    background-color: #2E1402;
     color: rgb(245, 237, 237);
     padding: 20px;
     border-radius: 10px;
@@ -267,5 +292,39 @@ footer a {
     border-radius: 10px;
     text-align: center;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.projects-section {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project-description {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+    text-align: center;
 }
 
